@@ -7,6 +7,7 @@
   background-image: url("../img/green-gradient-triangles-pattern.png");
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 1vh;
