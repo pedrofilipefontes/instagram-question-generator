@@ -1,0 +1,39 @@
+{
+  "general": {
+    "languageSelection": "Select a language: ",
+    "mainIntro": "Welcome to the",
+    "mainTitle": "Instagram question generator 1.0",
+    "lowerStatement": ["Made with ", " for all content creators! By:"],
+    "copyQuestion": "Copy and open Instagram",
+    "copiedNotification": "Copied successfully"
+  },
+  "questionBox": {
+    "questionStagePlaceholder": "Select a topic to show a question in here...",
+    "buttons": {
+      "category": {
+        "label": "Pick a topic",
+        "options": [
+          { "label": "Technology", "value": "Technology" },
+          { "label": "Digital Marketing", "value": "DigitalMarketing" },
+          { "label": "Nutrition", "value": "Nutrition" },
+          { "label": "Personal questions", "value": "PersonalQuestions" }
+        ],
+        "validation": {
+          "noPick": "Please, select a topic first."
+        }
+      },
+      "submit": {
+        "label": "Generate a random question"
+      }
+    }
+  },
+  "follow": {
+    "instagramProfile": [
+      {
+        "label": "opedro.fontes",
+        "link": "https://instagram.com/opedro.fontes"
+      },
+      { "label": "frannl_", "link": "https://instagram.com/frannl_" }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "general": {
+    "languageSelection": "Escolha um idioma: ",
+    "mainIntro": "Seja bem-vindo ao",
+    "mainTitle": "Gerador de Perguntas para Instagram 1.0",
+    "lowerStatement": [
+      "Feito com ",
+      " para todos os criadores de conteúdo! Por:"
+    ],
+    "copyQuestion": "Copiar e abrir Instagram",
+    "copiedNotification": "Pergunta copiada"
+  },
+  "questionBox": {
+    "questionStagePlaceholder": "Escolha um tema para gerar uma pergunta aqui...",
+    "buttons": {
+      "category": {
+        "label": "Escolha um tema",
+        "options": [
+          { "label": "Marketing Digital", "value": "MarketingDigital" },
+          { "label": "Nutrição", "value": "Nutrição" },
+          { "label": "Tecnologia", "value": "Tecnologia" },
+          { "label": "Perguntas pessoais", "value": "PerguntasPessoais" }
+        ],
+        "validation": {
+          "noPick": "Por favor escolha um assunto primeiro."
+        }
+      },
+      "submit": {
+        "label": "Gerar pergunta aleatória"
+      }
+    }
+  },
+  "follow": {
+    "instagramProfile": [
+      {
+        "label": "opedro.fontes",
+        "link": "https://instagram.com/opedro.fontes"
+      },
+      { "label": "frannl_", "link": "https://instagram.com/frannl_" }
+    ]
+  }
+}

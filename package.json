@@ -1,0 +1,32 @@
+{
+  "name": "gerador-de-perguntas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:fix": "prettier --write client/ && prettier --write server/ && prettier --write .",
+    "start:client": "cd client && npm run start",
+    "start:server": "cd server && firebase serve --only functions",
+    "build:local": "cd client && npm run build",
+    "deploy:client": "cd client && npm run build && firebase deploy",
+    "deploy:server": "cd server && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrofilipefontes/gerador-de-perguntas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrofilipefontes/gerador-de-perguntas/issues"
+  },
+  "homepage": "https://github.com/pedrofilipefontes/gerador-de-perguntas#readme",
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "dependencies": {
+    "firebase-functions": "^3.11.0"
+  }
+}

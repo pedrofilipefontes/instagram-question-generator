@@ -1,0 +1,30 @@
+/* @font-face {
+  font-family: 'din-condensed-bold';
+  src: url('/client/src/fonts/dinCondensed.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: "DIN Condensed Web";
+  src: url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot");
+  src: url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.svg#DIN Condensed Web")
+      format("svg");
+}
+
+body {
+  margin: 0;
+  font-family: "DIN Condensed Web";
+  text-transform: uppercase;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
